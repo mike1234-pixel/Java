@@ -59,3 +59,13 @@ public class MyUtils {
 	}
 }
 
+// ---------------------------------------
+// KEYWORDS
+// first line of method definition referred to as the "method signature"
+// inside the curly braces is the method body
+// VOID = method does not return anything
+// PUBLIC = "access modifier" - manages visibility of methods and variables
+// if private then method should be used locally
+// STATIC makes the method belong directly to its class, (as opposed to an instance of its class)
+
+// to import a class from another package: import someOtherPackage.ExampleClassOne;

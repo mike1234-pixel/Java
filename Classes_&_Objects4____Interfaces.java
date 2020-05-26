@@ -44,6 +44,29 @@ public class Animal {
 	
 }
 
+///////////////////////// CHILD CLASS
+
+package object_Orientation2;
+
+// using extends like this makes the Bird class a child of the Animal class, and enables it to inherit properties / behaviours from the parent class
+// Other words for parent class include "Super class" or "Base class"
+// Child classes all called "sub-classes"
+
+public class Bird extends Animal {
+
+	// hover over Bird class and click add constructor to create constructor automatically
+	
+	
+	public Bird(int age, String gender, int weightInLbs) {
+		super(age, gender, weightInLbs);
+		// TODO Auto-generated constructor stub
+	}
+	public void fly() {
+			System.out.println("Flying...");
+	}
+
+}
+
 ///////////////////////// CHILD CLASSES
 
 ///// chicken uses method overriding

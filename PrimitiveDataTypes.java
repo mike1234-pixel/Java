@@ -21,5 +21,31 @@ public class VariablesContinued {
 		
 		System.out.println(num + bigNumber + shortNum + reallySmallNum);
 	}
+	
+}
 
+	// A NOTE ON STRINGS...
+	// Unlike the other primitive data types, String is backed by a class specification and does not use a keyword
+	// A string in Java is therefore an object and an instance of the String class
+	
+	package Strings;
+
+public class Strings {
+	
+	public static void(String[] args) {
+		
+		String a = "hello";	
+		String b = "there";
+		
+//		if(a == "hello") {
+//			// DON'T USE THIS.
+//		}
+		
+		// when comparing strings...
+		
+		if(a.equals("hello")){
+			// USE THIS.
+			// or for not equal ... !a.equals("hello")
+			// to ignore case use .equalsIgnoreCase()
+	}
 }

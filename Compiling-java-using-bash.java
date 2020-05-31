@@ -18,3 +18,6 @@
 // javac -target 8 -source 8 ClientProgram.java Multiplier.java
 
 // program should now run.
+
+// JRE = Java Runtime Environment
+// JDK = Java Development Kit
